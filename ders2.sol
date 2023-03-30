@@ -1,5 +1,9 @@
 pragma solidity 0.8.0; //solidity versiyonu 0.8.0 olduğunu belirtiyor.
 
+/**
+ * @author berk cicek
+ */
+ 
 contract ArithmeticOperations  { //contract ismi ArithmeticOperations
 
 
