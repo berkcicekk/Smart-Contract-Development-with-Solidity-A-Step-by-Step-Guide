@@ -1,5 +1,9 @@
 pragma solidity ^0.8.0;
 
+/**
+ * @author berk cicek
+ */
+
 contract if_else{
 
     function learn(uint _value) public returns (string memory) {
