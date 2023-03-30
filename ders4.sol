@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.7.0 <0.9.0; 
 
+/**
+ * @author berk cicek
+ */
+
 contract EscrowApp2 {
     mapping (uint => address) transaction_receivers_list; // bu kod  transaction_receivers_list adında bir mapping oluşturduk. Bu mappingin key değeri uint, value değeri address.
     mapping (uint => address) transaction_owners_list; // bu kod transaction_owners_list adında bir mapping oluşturduk. Bu mappingin key değeri uint, value değeri address.
