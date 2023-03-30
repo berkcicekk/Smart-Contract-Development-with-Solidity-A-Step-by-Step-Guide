@@ -4,6 +4,10 @@ Bu işlem için kullanıcılar, kontratın adresine bir miktar ETH gönderirler.
 Bu ETH, satış işleminin gerçekleşmesi için kullanılır.*/
 pragma solidity 0.8.0; 
 
+/**
+ * @author berk cicek
+ */
+
 contract Escrow {
 
     address admin; //adminin adresini tut. 
